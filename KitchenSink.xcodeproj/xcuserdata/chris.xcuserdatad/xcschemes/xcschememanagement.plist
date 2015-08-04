@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ActionExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Glance - KitchenSink WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>830992051B714128007FCDAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8309921F1B714171007FCDAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

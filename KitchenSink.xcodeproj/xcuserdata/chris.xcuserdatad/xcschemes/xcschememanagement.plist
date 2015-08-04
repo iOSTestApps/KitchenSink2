@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>CustomKeyboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Glance - KitchenSink WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -48,6 +53,11 @@
 			<true/>
 		</dict>
 		<key>8309921F1B714171007FCDAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>830992311B7151A3007FCDAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

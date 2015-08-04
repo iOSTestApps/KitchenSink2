@@ -23,6 +23,8 @@
 		830992251B714171007FCDAB /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830992241B714171007FCDAB /* ActionViewController.swift */; };
 		830992271B714171007FCDAB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830992261B714171007FCDAB /* MainInterface.storyboard */; };
 		8309922A1B714171007FCDAB /* ActionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 830992201B714171007FCDAB /* ActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		830992371B7151A3007FCDAB /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830992361B7151A3007FCDAB /* KeyboardViewController.swift */; };
+		8309923A1B7151A3007FCDAB /* CustomKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 830992321B7151A3007FCDAB /* CustomKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,13 @@
 			remoteGlobalIDString = 8309921F1B714171007FCDAB;
 			remoteInfo = ActionExtension;
 		};
+		830992381B7151A3007FCDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830991C81B7140C5007FCDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830992311B7151A3007FCDAB;
+			remoteInfo = CustomKeyboard;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +74,7 @@
 			files = (
 				8309922A1B714171007FCDAB /* ActionExtension.appex in Embed App Extensions */,
 				830992141B714128007FCDAB /* KitchenSink WatchKit Extension.appex in Embed App Extensions */,
+				8309923A1B7151A3007FCDAB /* CustomKeyboard.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +106,9 @@
 		830992231B714171007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830992241B714171007FCDAB /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		830992261B714171007FCDAB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		830992321B7151A3007FCDAB /* CustomKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		830992351B7151A3007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830992361B7151A3007FCDAB /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +140,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8309922F1B7151A3007FCDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -138,6 +158,7 @@
 				830991FA1B714128007FCDAB /* KitchenSink WatchKit Extension */,
 				8309920A1B714128007FCDAB /* KitchenSink WatchKit App */,
 				830992211B714171007FCDAB /* ActionExtension */,
+				830992331B7151A3007FCDAB /* CustomKeyboard */,
 				830991D11B7140C5007FCDAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,6 +171,7 @@
 				830991F91B714128007FCDAB /* KitchenSink WatchKit Extension.appex */,
 				830992061B714128007FCDAB /* KitchenSink WatchKit App.app */,
 				830992201B714171007FCDAB /* ActionExtension.appex */,
+				830992321B7151A3007FCDAB /* CustomKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,6 +270,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		830992331B7151A3007FCDAB /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				830992361B7151A3007FCDAB /* KeyboardViewController.swift */,
+				830992341B7151A3007FCDAB /* Supporting Files */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+		830992341B7151A3007FCDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				830992351B7151A3007FCDAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -265,6 +304,7 @@
 			dependencies = (
 				830992131B714128007FCDAB /* PBXTargetDependency */,
 				830992291B714171007FCDAB /* PBXTargetDependency */,
+				830992391B7151A3007FCDAB /* PBXTargetDependency */,
 			);
 			name = KitchenSink;
 			productName = KitchenSink;
@@ -339,6 +379,23 @@
 			productReference = 830992201B714171007FCDAB /* ActionExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		830992311B7151A3007FCDAB /* CustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8309923B1B7151A3007FCDAB /* Build configuration list for PBXNativeTarget "CustomKeyboard" */;
+			buildPhases = (
+				8309922E1B7151A3007FCDAB /* Sources */,
+				8309922F1B7151A3007FCDAB /* Frameworks */,
+				830992301B7151A3007FCDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKeyboard;
+			productName = CustomKeyboard;
+			productReference = 830992321B7151A3007FCDAB /* CustomKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -364,6 +421,9 @@
 					8309921F1B714171007FCDAB = {
 						CreatedOnToolsVersion = 6.4;
 					};
+					830992311B7151A3007FCDAB = {
+						CreatedOnToolsVersion = 6.4;
+					};
 				};
 			};
 			buildConfigurationList = 830991CB1B7140C5007FCDAB /* Build configuration list for PBXProject "KitchenSink" */;
@@ -384,6 +444,7 @@
 				830991F81B714128007FCDAB /* KitchenSink WatchKit Extension */,
 				830992051B714128007FCDAB /* KitchenSink WatchKit App */,
 				8309921F1B714171007FCDAB /* ActionExtension */,
+				830992311B7151A3007FCDAB /* CustomKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -432,6 +493,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		830992301B7151A3007FCDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -469,6 +537,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8309922E1B7151A3007FCDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830992371B7151A3007FCDAB /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -491,6 +567,11 @@
 			isa = PBXTargetDependency;
 			target = 8309921F1B714171007FCDAB /* ActionExtension */;
 			targetProxy = 830992281B714171007FCDAB /* PBXContainerItemProxy */;
+		};
+		830992391B7151A3007FCDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830992311B7151A3007FCDAB /* CustomKeyboard */;
+			targetProxy = 830992381B7151A3007FCDAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -739,6 +820,30 @@
 			};
 			name = Release;
 		};
+		8309923C1B7151A3007FCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8309923D1B7151A3007FCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -788,6 +893,14 @@
 			buildConfigurations = (
 				8309922C1B714171007FCDAB /* Debug */,
 				8309922D1B714171007FCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8309923B1B7151A3007FCDAB /* Build configuration list for PBXNativeTarget "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8309923C1B7151A3007FCDAB /* Debug */,
+				8309923D1B7151A3007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

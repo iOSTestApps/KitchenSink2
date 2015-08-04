@@ -13,6 +13,13 @@
 		830991DD1B7140C5007FCDAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830991DC1B7140C5007FCDAB /* Images.xcassets */; };
 		830991E01B7140C5007FCDAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830991DE1B7140C5007FCDAB /* LaunchScreen.xib */; };
 		830991EC1B7140C5007FCDAB /* KitchenSinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830991EB1B7140C5007FCDAB /* KitchenSinkTests.swift */; };
+		830991FF1B714128007FCDAB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830991FE1B714128007FCDAB /* InterfaceController.swift */; };
+		830992011B714128007FCDAB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830992001B714128007FCDAB /* NotificationController.swift */; };
+		830992031B714128007FCDAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830992021B714128007FCDAB /* Images.xcassets */; };
+		830992071B714128007FCDAB /* KitchenSink WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 830992061B714128007FCDAB /* KitchenSink WatchKit App.app */; };
+		8309920F1B714128007FCDAB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309920D1B714128007FCDAB /* Interface.storyboard */; };
+		830992111B714128007FCDAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830992101B714128007FCDAB /* Images.xcassets */; };
+		830992141B714128007FCDAB /* KitchenSink WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 830991F91B714128007FCDAB /* KitchenSink WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = 830991CF1B7140C5007FCDAB;
 			remoteInfo = KitchenSink;
 		};
+		830992081B714128007FCDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830991C81B7140C5007FCDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830992051B714128007FCDAB;
+			remoteInfo = "KitchenSink WatchKit App";
+		};
+		830992121B714128007FCDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830991C81B7140C5007FCDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830991F81B714128007FCDAB;
+			remoteInfo = "KitchenSink WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8309921B1B714128007FCDAB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				830992141B714128007FCDAB /* KitchenSink WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		830991D01B7140C5007FCDAB /* KitchenSink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenSink.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,16 @@
 		830991E51B7140C5007FCDAB /* KitchenSinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitchenSinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		830991EA1B7140C5007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830991EB1B7140C5007FCDAB /* KitchenSinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenSinkTests.swift; sourceTree = "<group>"; };
+		830991F91B714128007FCDAB /* KitchenSink WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KitchenSink WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830991FC1B714128007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830991FD1B714128007FCDAB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		830991FE1B714128007FCDAB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		830992001B714128007FCDAB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		830992021B714128007FCDAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		830992061B714128007FCDAB /* KitchenSink WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KitchenSink WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8309920C1B714128007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8309920E1B714128007FCDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		830992101B714128007FCDAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +98,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		830991F61B714128007FCDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +113,8 @@
 			children = (
 				830991D21B7140C5007FCDAB /* KitchenSink */,
 				830991E81B7140C5007FCDAB /* KitchenSinkTests */,
+				830991FA1B714128007FCDAB /* KitchenSink WatchKit Extension */,
+				8309920A1B714128007FCDAB /* KitchenSink WatchKit App */,
 				830991D11B7140C5007FCDAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +124,8 @@
 			children = (
 				830991D01B7140C5007FCDAB /* KitchenSink.app */,
 				830991E51B7140C5007FCDAB /* KitchenSinkTests.xctest */,
+				830991F91B714128007FCDAB /* KitchenSink WatchKit Extension.appex */,
+				830992061B714128007FCDAB /* KitchenSink WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +168,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		830991FA1B714128007FCDAB /* KitchenSink WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				830991FE1B714128007FCDAB /* InterfaceController.swift */,
+				830992001B714128007FCDAB /* NotificationController.swift */,
+				830992021B714128007FCDAB /* Images.xcassets */,
+				830991FB1B714128007FCDAB /* Supporting Files */,
+			);
+			path = "KitchenSink WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		830991FB1B714128007FCDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				830991FC1B714128007FCDAB /* Info.plist */,
+				830991FD1B714128007FCDAB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8309920A1B714128007FCDAB /* KitchenSink WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8309920D1B714128007FCDAB /* Interface.storyboard */,
+				830992101B714128007FCDAB /* Images.xcassets */,
+				8309920B1B714128007FCDAB /* Supporting Files */,
+			);
+			path = "KitchenSink WatchKit App";
+			sourceTree = "<group>";
+		};
+		8309920B1B714128007FCDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8309920C1B714128007FCDAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +216,12 @@
 				830991CC1B7140C5007FCDAB /* Sources */,
 				830991CD1B7140C5007FCDAB /* Frameworks */,
 				830991CE1B7140C5007FCDAB /* Resources */,
+				8309921B1B714128007FCDAB /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				830992131B714128007FCDAB /* PBXTargetDependency */,
 			);
 			name = KitchenSink;
 			productName = KitchenSink;
@@ -150,6 +246,39 @@
 			productReference = 830991E51B7140C5007FCDAB /* KitchenSinkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		830991F81B714128007FCDAB /* KitchenSink WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830992181B714128007FCDAB /* Build configuration list for PBXNativeTarget "KitchenSink WatchKit Extension" */;
+			buildPhases = (
+				830991F51B714128007FCDAB /* Sources */,
+				830991F61B714128007FCDAB /* Frameworks */,
+				830991F71B714128007FCDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830992091B714128007FCDAB /* PBXTargetDependency */,
+			);
+			name = "KitchenSink WatchKit Extension";
+			productName = "KitchenSink WatchKit Extension";
+			productReference = 830991F91B714128007FCDAB /* KitchenSink WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		830992051B714128007FCDAB /* KitchenSink WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830992151B714128007FCDAB /* Build configuration list for PBXNativeTarget "KitchenSink WatchKit App" */;
+			buildPhases = (
+				830992041B714128007FCDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KitchenSink WatchKit App";
+			productName = "KitchenSink WatchKit App";
+			productReference = 830992061B714128007FCDAB /* KitchenSink WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +294,12 @@
 					830991E41B7140C5007FCDAB = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 830991CF1B7140C5007FCDAB;
+					};
+					830991F81B714128007FCDAB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					830992051B714128007FCDAB = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -183,6 +318,8 @@
 			targets = (
 				830991CF1B7140C5007FCDAB /* KitchenSink */,
 				830991E41B7140C5007FCDAB /* KitchenSinkTests */,
+				830991F81B714128007FCDAB /* KitchenSink WatchKit Extension */,
+				830992051B714128007FCDAB /* KitchenSink WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +339,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830991F71B714128007FCDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830992071B714128007FCDAB /* KitchenSink WatchKit App.app in Resources */,
+				830992031B714128007FCDAB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830992041B714128007FCDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8309920F1B714128007FCDAB /* Interface.storyboard in Resources */,
+				830992111B714128007FCDAB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +380,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		830991F51B714128007FCDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830992011B714128007FCDAB /* NotificationController.swift in Sources */,
+				830991FF1B714128007FCDAB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +396,16 @@
 			isa = PBXTargetDependency;
 			target = 830991CF1B7140C5007FCDAB /* KitchenSink */;
 			targetProxy = 830991E61B7140C5007FCDAB /* PBXContainerItemProxy */;
+		};
+		830992091B714128007FCDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830992051B714128007FCDAB /* KitchenSink WatchKit App */;
+			targetProxy = 830992081B714128007FCDAB /* PBXContainerItemProxy */;
+		};
+		830992131B714128007FCDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830991F81B714128007FCDAB /* KitchenSink WatchKit Extension */;
+			targetProxy = 830992121B714128007FCDAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +424,14 @@
 				830991DF1B7140C5007FCDAB /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		8309920D1B714128007FCDAB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8309920E1B714128007FCDAB /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -392,6 +574,62 @@
 			};
 			name = Release;
 		};
+		830992161B714128007FCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = KitchenSink_WatchKit_Extension;
+				INFOPLIST_FILE = "KitchenSink WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		830992171B714128007FCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = KitchenSink_WatchKit_Extension;
+				INFOPLIST_FILE = "KitchenSink WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		830992191B714128007FCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KitchenSink WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8309921A1B714128007FCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KitchenSink WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -417,6 +655,22 @@
 			buildConfigurations = (
 				830991F31B7140C5007FCDAB /* Debug */,
 				830991F41B7140C5007FCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		830992151B714128007FCDAB /* Build configuration list for PBXNativeTarget "KitchenSink WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830992161B714128007FCDAB /* Debug */,
+				830992171B714128007FCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		830992181B714128007FCDAB /* Build configuration list for PBXNativeTarget "KitchenSink WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830992191B714128007FCDAB /* Debug */,
+				8309921A1B714128007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - KitchenSink WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>KitchenSink WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>KitchenSink.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Notification - KitchenSink WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>830991E41B7140C5007FCDAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>830992051B714128007FCDAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>DocumentProvider.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>DocumentProviderFileProvider.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Glance - KitchenSink WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +43,21 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>PhotoEditingExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>ShareExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>TodayExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -58,6 +83,31 @@
 			<true/>
 		</dict>
 		<key>830992311B7151A3007FCDAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>830992411B7151BF007FCDAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8309924E1B7151BF007FCDAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>830992651B715343007FCDAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8309927C1B715353007FCDAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8309928E1B71535B007FCDAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

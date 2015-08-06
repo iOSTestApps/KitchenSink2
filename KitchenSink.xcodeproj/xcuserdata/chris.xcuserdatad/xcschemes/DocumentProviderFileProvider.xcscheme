@@ -35,6 +35,20 @@
                ReferencedContainer = "container:KitchenSink.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "837D3D971B73DB4D004BB293"
+               BuildableName = "KitchenKitTests.xctest"
+               BlueprintName = "KitchenKitTests"
+               ReferencedContainer = "container:KitchenSink.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -43,13 +57,23 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "837D3D971B73DB4D004BB293"
+               BuildableName = "KitchenKitTests.xctest"
+               BlueprintName = "KitchenKitTests"
+               ReferencedContainer = "container:KitchenSink.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8309924E1B7151BF007FCDAB"
-            BuildableName = "DocumentProviderFileProvider.appex"
-            BlueprintName = "DocumentProviderFileProvider"
+            BlueprintIdentifier = "830991CF1B7140C5007FCDAB"
+            BuildableName = "KitchenSink.app"
+            BlueprintName = "KitchenSink"
             ReferencedContainer = "container:KitchenSink.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -34,6 +34,20 @@
                ReferencedContainer = "container:KitchenSink.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "837D3D971B73DB4D004BB293"
+               BuildableName = "KitchenKitTests.xctest"
+               BlueprintName = "KitchenKitTests"
+               ReferencedContainer = "container:KitchenSink.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "830991E41B7140C5007FCDAB"
                BuildableName = "KitchenSinkTests.xctest"
                BlueprintName = "KitchenSinkTests"
+               ReferencedContainer = "container:KitchenSink.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "837D3D971B73DB4D004BB293"
+               BuildableName = "KitchenKitTests.xctest"
+               BlueprintName = "KitchenKitTests"
                ReferencedContainer = "container:KitchenSink.xcodeproj">
             </BuildableReference>
          </TestableReference>

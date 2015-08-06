@@ -42,6 +42,11 @@
 		830992961B71535B007FCDAB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830992951B71535B007FCDAB /* TodayViewController.swift */; };
 		830992981B71535B007FCDAB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830992971B71535B007FCDAB /* MainInterface.storyboard */; };
 		8309929B1B71535B007FCDAB /* TodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8309928F1B71535B007FCDAB /* TodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		837D3D931B73DB4D004BB293 /* KitchenKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 837D3D921B73DB4D004BB293 /* KitchenKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		837D3D991B73DB4D004BB293 /* KitchenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837D3D8E1B73DB4D004BB293 /* KitchenKit.framework */; };
+		837D3DA21B73DB4D004BB293 /* KitchenKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D3DA11B73DB4D004BB293 /* KitchenKitTests.swift */; };
+		837D3DA51B73DB4D004BB293 /* KitchenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837D3D8E1B73DB4D004BB293 /* KitchenKit.framework */; };
+		837D3DA61B73DB4D004BB293 /* KitchenKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 837D3D8E1B73DB4D004BB293 /* KitchenKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +120,27 @@
 			remoteGlobalIDString = 8309928E1B71535B007FCDAB;
 			remoteInfo = TodayExtension;
 		};
+		837D3D9A1B73DB4D004BB293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830991C81B7140C5007FCDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837D3D8D1B73DB4D004BB293;
+			remoteInfo = KitchenKit;
+		};
+		837D3D9C1B73DB4D004BB293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830991C81B7140C5007FCDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830991CF1B7140C5007FCDAB;
+			remoteInfo = KitchenSink;
+		};
+		837D3DA31B73DB4D004BB293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830991C81B7140C5007FCDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837D3D8D1B73DB4D004BB293;
+			remoteInfo = KitchenKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -134,6 +160,17 @@
 				830992581B7151BF007FCDAB /* DocumentProviderFileProvider.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837D3DAC1B73DB4D004BB293 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				837D3DA61B73DB4D004BB293 /* KitchenKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -190,6 +227,12 @@
 		830992941B71535B007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830992951B71535B007FCDAB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		830992971B71535B007FCDAB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		837D3D8E1B73DB4D004BB293 /* KitchenKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KitchenKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		837D3D911B73DB4D004BB293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837D3D921B73DB4D004BB293 /* KitchenKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitchenKit.h; sourceTree = "<group>"; };
+		837D3D981B73DB4D004BB293 /* KitchenKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitchenKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837D3DA01B73DB4D004BB293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837D3DA11B73DB4D004BB293 /* KitchenKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenKitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +240,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837D3DA51B73DB4D004BB293 /* KitchenKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +310,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		837D3D8A1B73DB4D004BB293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837D3D951B73DB4D004BB293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837D3D991B73DB4D004BB293 /* KitchenKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -283,6 +342,8 @@
 				8309926C1B715343007FCDAB /* PhotoEditingExtension */,
 				8309927E1B715353007FCDAB /* ShareExtension */,
 				830992921B71535B007FCDAB /* TodayExtension */,
+				837D3D8F1B73DB4D004BB293 /* KitchenKit */,
+				837D3D9E1B73DB4D004BB293 /* KitchenKitTests */,
 				830992671B715343007FCDAB /* Frameworks */,
 				830991D11B7140C5007FCDAB /* Products */,
 			);
@@ -302,6 +363,8 @@
 				830992661B715343007FCDAB /* PhotoEditingExtension.appex */,
 				8309927D1B715353007FCDAB /* ShareExtension.appex */,
 				8309928F1B71535B007FCDAB /* TodayExtension.appex */,
+				837D3D8E1B73DB4D004BB293 /* KitchenKit.framework */,
+				837D3D981B73DB4D004BB293 /* KitchenKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -518,7 +581,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		837D3D8F1B73DB4D004BB293 /* KitchenKit */ = {
+			isa = PBXGroup;
+			children = (
+				837D3D921B73DB4D004BB293 /* KitchenKit.h */,
+				837D3D901B73DB4D004BB293 /* Supporting Files */,
+			);
+			path = KitchenKit;
+			sourceTree = "<group>";
+		};
+		837D3D901B73DB4D004BB293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				837D3D911B73DB4D004BB293 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		837D3D9E1B73DB4D004BB293 /* KitchenKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				837D3DA11B73DB4D004BB293 /* KitchenKitTests.swift */,
+				837D3D9F1B73DB4D004BB293 /* Supporting Files */,
+			);
+			path = KitchenKitTests;
+			sourceTree = "<group>";
+		};
+		837D3D9F1B73DB4D004BB293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				837D3DA01B73DB4D004BB293 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		837D3D8B1B73DB4D004BB293 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837D3D931B73DB4D004BB293 /* KitchenKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		830991CF1B7140C5007FCDAB /* KitchenSink */ = {
@@ -529,6 +637,7 @@
 				830991CD1B7140C5007FCDAB /* Frameworks */,
 				830991CE1B7140C5007FCDAB /* Resources */,
 				8309921B1B714128007FCDAB /* Embed App Extensions */,
+				837D3DAC1B73DB4D004BB293 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -541,6 +650,7 @@
 				830992741B715343007FCDAB /* PBXTargetDependency */,
 				830992861B715353007FCDAB /* PBXTargetDependency */,
 				8309929A1B71535B007FCDAB /* PBXTargetDependency */,
+				837D3DA41B73DB4D004BB293 /* PBXTargetDependency */,
 			);
 			name = KitchenSink;
 			productName = KitchenSink;
@@ -717,6 +827,43 @@
 			productReference = 8309928F1B71535B007FCDAB /* TodayExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		837D3D8D1B73DB4D004BB293 /* KitchenKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837D3DAB1B73DB4D004BB293 /* Build configuration list for PBXNativeTarget "KitchenKit" */;
+			buildPhases = (
+				837D3D891B73DB4D004BB293 /* Sources */,
+				837D3D8A1B73DB4D004BB293 /* Frameworks */,
+				837D3D8B1B73DB4D004BB293 /* Headers */,
+				837D3D8C1B73DB4D004BB293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KitchenKit;
+			productName = KitchenKit;
+			productReference = 837D3D8E1B73DB4D004BB293 /* KitchenKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		837D3D971B73DB4D004BB293 /* KitchenKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837D3DAD1B73DB4D004BB293 /* Build configuration list for PBXNativeTarget "KitchenKitTests" */;
+			buildPhases = (
+				837D3D941B73DB4D004BB293 /* Sources */,
+				837D3D951B73DB4D004BB293 /* Frameworks */,
+				837D3D961B73DB4D004BB293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837D3D9B1B73DB4D004BB293 /* PBXTargetDependency */,
+				837D3D9D1B73DB4D004BB293 /* PBXTargetDependency */,
+			);
+			name = KitchenKitTests;
+			productName = KitchenKitTests;
+			productReference = 837D3D981B73DB4D004BB293 /* KitchenKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -760,6 +907,13 @@
 					8309928E1B71535B007FCDAB = {
 						CreatedOnToolsVersion = 6.4;
 					};
+					837D3D8D1B73DB4D004BB293 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					837D3D971B73DB4D004BB293 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 830991CF1B7140C5007FCDAB;
+					};
 				};
 			};
 			buildConfigurationList = 830991CB1B7140C5007FCDAB /* Build configuration list for PBXProject "KitchenSink" */;
@@ -786,6 +940,8 @@
 				830992651B715343007FCDAB /* PhotoEditingExtension */,
 				8309927C1B715353007FCDAB /* ShareExtension */,
 				8309928E1B71535B007FCDAB /* TodayExtension */,
+				837D3D8D1B73DB4D004BB293 /* KitchenKit */,
+				837D3D971B73DB4D004BB293 /* KitchenKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -880,6 +1036,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		837D3D8C1B73DB4D004BB293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837D3D961B73DB4D004BB293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -965,6 +1135,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		837D3D891B73DB4D004BB293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837D3D941B73DB4D004BB293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837D3DA21B73DB4D004BB293 /* KitchenKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1017,6 +1202,21 @@
 			isa = PBXTargetDependency;
 			target = 8309928E1B71535B007FCDAB /* TodayExtension */;
 			targetProxy = 830992991B71535B007FCDAB /* PBXContainerItemProxy */;
+		};
+		837D3D9B1B73DB4D004BB293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837D3D8D1B73DB4D004BB293 /* KitchenKit */;
+			targetProxy = 837D3D9A1B73DB4D004BB293 /* PBXContainerItemProxy */;
+		};
+		837D3D9D1B73DB4D004BB293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830991CF1B7140C5007FCDAB /* KitchenSink */;
+			targetProxy = 837D3D9C1B73DB4D004BB293 /* PBXContainerItemProxy */;
+		};
+		837D3DA41B73DB4D004BB293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837D3D8D1B73DB4D004BB293 /* KitchenKit */;
+			targetProxy = 837D3DA31B73DB4D004BB293 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1433,6 +1633,78 @@
 			};
 			name = Release;
 		};
+		837D3DA71B73DB4D004BB293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KitchenKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		837D3DA81B73DB4D004BB293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KitchenKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		837D3DA91B73DB4D004BB293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KitchenKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitchenSink.app/KitchenSink";
+			};
+			name = Debug;
+		};
+		837D3DAA1B73DB4D004BB293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KitchenKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitchenSink.app/KitchenSink";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1452,6 +1724,7 @@
 				830991F11B7140C5007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		830991F21B7140C5007FCDAB /* Build configuration list for PBXNativeTarget "KitchenSinkTests" */ = {
 			isa = XCConfigurationList;
@@ -1460,6 +1733,7 @@
 				830991F41B7140C5007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		830992151B714128007FCDAB /* Build configuration list for PBXNativeTarget "KitchenSink WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -1468,6 +1742,7 @@
 				830992171B714128007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		830992181B714128007FCDAB /* Build configuration list for PBXNativeTarget "KitchenSink WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -1476,6 +1751,7 @@
 				8309921A1B714128007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8309922B1B714171007FCDAB /* Build configuration list for PBXNativeTarget "ActionExtension" */ = {
 			isa = XCConfigurationList;
@@ -1484,6 +1760,7 @@
 				8309922D1B714171007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8309923B1B7151A3007FCDAB /* Build configuration list for PBXNativeTarget "CustomKeyboard" */ = {
 			isa = XCConfigurationList;
@@ -1492,6 +1769,7 @@
 				8309923D1B7151A3007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8309925C1B7151BF007FCDAB /* Build configuration list for PBXNativeTarget "DocumentProviderFileProvider" */ = {
 			isa = XCConfigurationList;
@@ -1500,6 +1778,7 @@
 				8309925E1B7151BF007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8309925F1B7151BF007FCDAB /* Build configuration list for PBXNativeTarget "DocumentProvider" */ = {
 			isa = XCConfigurationList;
@@ -1508,6 +1787,7 @@
 				830992611B7151BF007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		830992761B715343007FCDAB /* Build configuration list for PBXNativeTarget "PhotoEditingExtension" */ = {
 			isa = XCConfigurationList;
@@ -1516,6 +1796,7 @@
 				830992781B715343007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		830992881B715353007FCDAB /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
 			isa = XCConfigurationList;
@@ -1524,12 +1805,30 @@
 				8309928A1B715353007FCDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8309929C1B71535B007FCDAB /* Build configuration list for PBXNativeTarget "TodayExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8309929D1B71535B007FCDAB /* Debug */,
 				8309929E1B71535B007FCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837D3DAB1B73DB4D004BB293 /* Build configuration list for PBXNativeTarget "KitchenKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837D3DA71B73DB4D004BB293 /* Debug */,
+				837D3DA81B73DB4D004BB293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837D3DAD1B73DB4D004BB293 /* Build configuration list for PBXNativeTarget "KitchenKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837D3DA91B73DB4D004BB293 /* Debug */,
+				837D3DAA1B73DB4D004BB293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

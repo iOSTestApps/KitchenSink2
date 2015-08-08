@@ -25,11 +25,6 @@
 		8309922A1B714171007FCDAB /* ActionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 830992201B714171007FCDAB /* ActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		830992371B7151A3007FCDAB /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830992361B7151A3007FCDAB /* KeyboardViewController.swift */; };
 		8309923A1B7151A3007FCDAB /* CustomKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 830992321B7151A3007FCDAB /* CustomKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		830992481B7151BF007FCDAB /* DocumentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830992471B7151BF007FCDAB /* DocumentPickerViewController.swift */; };
-		8309924A1B7151BF007FCDAB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830992491B7151BF007FCDAB /* MainInterface.storyboard */; };
-		830992551B7151BF007FCDAB /* FileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830992541B7151BF007FCDAB /* FileProvider.swift */; };
-		830992581B7151BF007FCDAB /* DocumentProviderFileProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8309924F1B7151BF007FCDAB /* DocumentProviderFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8309925B1B7151BF007FCDAB /* DocumentProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 830992421B7151BF007FCDAB /* DocumentProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		830992691B715343007FCDAB /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830992681B715343007FCDAB /* PhotosUI.framework */; };
 		8309926B1B715343007FCDAB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8309926A1B715343007FCDAB /* Photos.framework */; };
 		830992701B715343007FCDAB /* PhotoEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309926F1B715343007FCDAB /* PhotoEditingViewController.swift */; };
@@ -84,20 +79,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 830992311B7151A3007FCDAB;
 			remoteInfo = CustomKeyboard;
-		};
-		830992561B7151BF007FCDAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 830991C81B7140C5007FCDAB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8309924E1B7151BF007FCDAB;
-			remoteInfo = DocumentProviderFileProvider;
-		};
-		830992591B7151BF007FCDAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 830991C81B7140C5007FCDAB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 830992411B7151BF007FCDAB;
-			remoteInfo = DocumentProvider;
 		};
 		830992731B715343007FCDAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -154,10 +135,8 @@
 				830992751B715343007FCDAB /* PhotoEditingExtension.appex in Embed App Extensions */,
 				8309922A1B714171007FCDAB /* ActionExtension.appex in Embed App Extensions */,
 				830992141B714128007FCDAB /* KitchenSink WatchKit Extension.appex in Embed App Extensions */,
-				8309925B1B7151BF007FCDAB /* DocumentProvider.appex in Embed App Extensions */,
 				8309923A1B7151A3007FCDAB /* CustomKeyboard.appex in Embed App Extensions */,
 				8309929B1B71535B007FCDAB /* TodayExtension.appex in Embed App Extensions */,
-				830992581B7151BF007FCDAB /* DocumentProviderFileProvider.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,12 +182,10 @@
 		830992321B7151A3007FCDAB /* CustomKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		830992351B7151A3007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830992361B7151A3007FCDAB /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
-		830992421B7151BF007FCDAB /* DocumentProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DocumentProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		830992451B7151BF007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830992461B7151BF007FCDAB /* DocumentProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DocumentProvider.entitlements; sourceTree = "<group>"; };
 		830992471B7151BF007FCDAB /* DocumentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerViewController.swift; sourceTree = "<group>"; };
 		830992491B7151BF007FCDAB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
-		8309924F1B7151BF007FCDAB /* DocumentProviderFileProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DocumentProviderFileProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		830992521B7151BF007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830992531B7151BF007FCDAB /* DocumentProviderFileProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DocumentProviderFileProvider.entitlements; sourceTree = "<group>"; };
 		830992541B7151BF007FCDAB /* FileProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProvider.swift; sourceTree = "<group>"; };
@@ -266,20 +243,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8309922F1B7151A3007FCDAB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8309923F1B7151BF007FCDAB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8309924C1B7151BF007FCDAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,8 +321,6 @@
 				830992061B714128007FCDAB /* KitchenSink WatchKit App.app */,
 				830992201B714171007FCDAB /* ActionExtension.appex */,
 				830992321B7151A3007FCDAB /* CustomKeyboard.appex */,
-				830992421B7151BF007FCDAB /* DocumentProvider.appex */,
-				8309924F1B7151BF007FCDAB /* DocumentProviderFileProvider.appex */,
 				830992661B715343007FCDAB /* PhotoEditingExtension.appex */,
 				8309927D1B715353007FCDAB /* ShareExtension.appex */,
 				8309928F1B71535B007FCDAB /* TodayExtension.appex */,
@@ -645,8 +606,6 @@
 				830992131B714128007FCDAB /* PBXTargetDependency */,
 				830992291B714171007FCDAB /* PBXTargetDependency */,
 				830992391B7151A3007FCDAB /* PBXTargetDependency */,
-				830992571B7151BF007FCDAB /* PBXTargetDependency */,
-				8309925A1B7151BF007FCDAB /* PBXTargetDependency */,
 				830992741B715343007FCDAB /* PBXTargetDependency */,
 				830992861B715353007FCDAB /* PBXTargetDependency */,
 				8309929A1B71535B007FCDAB /* PBXTargetDependency */,
@@ -740,40 +699,6 @@
 			name = CustomKeyboard;
 			productName = CustomKeyboard;
 			productReference = 830992321B7151A3007FCDAB /* CustomKeyboard.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		830992411B7151BF007FCDAB /* DocumentProvider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8309925F1B7151BF007FCDAB /* Build configuration list for PBXNativeTarget "DocumentProvider" */;
-			buildPhases = (
-				8309923E1B7151BF007FCDAB /* Sources */,
-				8309923F1B7151BF007FCDAB /* Frameworks */,
-				830992401B7151BF007FCDAB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DocumentProvider;
-			productName = DocumentProvider;
-			productReference = 830992421B7151BF007FCDAB /* DocumentProvider.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		8309924E1B7151BF007FCDAB /* DocumentProviderFileProvider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8309925C1B7151BF007FCDAB /* Build configuration list for PBXNativeTarget "DocumentProviderFileProvider" */;
-			buildPhases = (
-				8309924B1B7151BF007FCDAB /* Sources */,
-				8309924C1B7151BF007FCDAB /* Frameworks */,
-				8309924D1B7151BF007FCDAB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DocumentProviderFileProvider;
-			productName = DocumentProviderFileProvider;
-			productReference = 8309924F1B7151BF007FCDAB /* DocumentProviderFileProvider.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		830992651B715343007FCDAB /* PhotoEditingExtension */ = {
@@ -892,12 +817,6 @@
 					830992311B7151A3007FCDAB = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					830992411B7151BF007FCDAB = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					8309924E1B7151BF007FCDAB = {
-						CreatedOnToolsVersion = 6.4;
-					};
 					830992651B715343007FCDAB = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -935,8 +854,6 @@
 				830992051B714128007FCDAB /* KitchenSink WatchKit App */,
 				8309921F1B714171007FCDAB /* ActionExtension */,
 				830992311B7151A3007FCDAB /* CustomKeyboard */,
-				830992411B7151BF007FCDAB /* DocumentProvider */,
-				8309924E1B7151BF007FCDAB /* DocumentProviderFileProvider */,
 				830992651B715343007FCDAB /* PhotoEditingExtension */,
 				8309927C1B715353007FCDAB /* ShareExtension */,
 				8309928E1B71535B007FCDAB /* TodayExtension */,
@@ -991,21 +908,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		830992301B7151A3007FCDAB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		830992401B7151BF007FCDAB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8309924A1B7151BF007FCDAB /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8309924D1B7151BF007FCDAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1095,22 +997,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8309923E1B7151BF007FCDAB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				830992481B7151BF007FCDAB /* DocumentPickerViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8309924B1B7151BF007FCDAB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				830992551B7151BF007FCDAB /* FileProvider.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		830992621B715343007FCDAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1177,16 +1063,6 @@
 			isa = PBXTargetDependency;
 			target = 830992311B7151A3007FCDAB /* CustomKeyboard */;
 			targetProxy = 830992381B7151A3007FCDAB /* PBXContainerItemProxy */;
-		};
-		830992571B7151BF007FCDAB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8309924E1B7151BF007FCDAB /* DocumentProviderFileProvider */;
-			targetProxy = 830992561B7151BF007FCDAB /* PBXContainerItemProxy */;
-		};
-		8309925A1B7151BF007FCDAB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 830992411B7151BF007FCDAB /* DocumentProvider */;
-			targetProxy = 830992591B7151BF007FCDAB /* PBXContainerItemProxy */;
 		};
 		830992741B715343007FCDAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1499,62 +1375,6 @@
 			};
 			name = Release;
 		};
-		8309925D1B7151BF007FCDAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = DocumentProviderFileProvider/DocumentProviderFileProvider.entitlements;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DocumentProviderFileProvider/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "be5ce5a2-d3ff-4849-9ae0-dc156d96781a";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8309925E1B7151BF007FCDAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = DocumentProviderFileProvider/DocumentProviderFileProvider.entitlements;
-				INFOPLIST_FILE = DocumentProviderFileProvider/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "be5ce5a2-d3ff-4849-9ae0-dc156d96781a";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		830992601B7151BF007FCDAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = DocumentProvider/DocumentProvider.entitlements;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DocumentProvider/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4fa8ee92-e257-402c-b0c2-9f5d98cc64cc";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		830992611B7151BF007FCDAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = DocumentProvider/DocumentProvider.entitlements;
-				INFOPLIST_FILE = DocumentProvider/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4fa8ee92-e257-402c-b0c2-9f5d98cc64cc";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		830992771B715343007FCDAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1771,24 +1591,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8309925C1B7151BF007FCDAB /* Build configuration list for PBXNativeTarget "DocumentProviderFileProvider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8309925D1B7151BF007FCDAB /* Debug */,
-				8309925E1B7151BF007FCDAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8309925F1B7151BF007FCDAB /* Build configuration list for PBXNativeTarget "DocumentProvider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				830992601B7151BF007FCDAB /* Debug */,
-				830992611B7151BF007FCDAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		830992761B715343007FCDAB /* Build configuration list for PBXNativeTarget "PhotoEditingExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1823,6 +1625,7 @@
 				837D3DA81B73DB4D004BB293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		837D3DAD1B73DB4D004BB293 /* Build configuration list for PBXNativeTarget "KitchenKitTests" */ = {
 			isa = XCConfigurationList;
@@ -1831,6 +1634,7 @@
 				837D3DAA1B73DB4D004BB293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

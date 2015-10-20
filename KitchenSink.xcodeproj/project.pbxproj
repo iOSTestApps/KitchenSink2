@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D04F6EEFA250312628B2E3 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68444859C92A9BB9EF0F3B4 /* BuddyBuildSDK.framework */; };
+		2E230436F523913664C68B74 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB14D0E3745BFB5651C9186 /* AssetsLibrary.framework */; };
+		3934CE3AC478E20FBDC682E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752EF1DCE3D8972E00D3FB40 /* SystemConfiguration.framework */; };
 		830991D61B7140C5007FCDAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830991D51B7140C5007FCDAB /* AppDelegate.swift */; };
 		830991D81B7140C5007FCDAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830991D71B7140C5007FCDAB /* ViewController.swift */; };
 		830991DB1B7140C5007FCDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830991D91B7140C5007FCDAB /* Main.storyboard */; };
@@ -42,6 +45,8 @@
 		837D3DA21B73DB4D004BB293 /* KitchenKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D3DA11B73DB4D004BB293 /* KitchenKitTests.swift */; };
 		837D3DA51B73DB4D004BB293 /* KitchenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837D3D8E1B73DB4D004BB293 /* KitchenKit.framework */; };
 		837D3DA61B73DB4D004BB293 /* KitchenKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 837D3D8E1B73DB4D004BB293 /* KitchenKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F156502C23FB6C1A0D59B008 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4329E60E923D3B967F43367B /* CoreTelephony.framework */; };
+		FD0AEE7B868612BC9D01D151 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3623EDC576BAC3624A854B /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +160,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F3623EDC576BAC3624A854B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		4329E60E923D3B967F43367B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		43FEA01A0DBA18EA98CC7990 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		4CB14D0E3745BFB5651C9186 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		752EF1DCE3D8972E00D3FB40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		830991D01B7140C5007FCDAB /* KitchenSink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenSink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		830991D41B7140C5007FCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830991D51B7140C5007FCDAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +220,7 @@
 		837D3D981B73DB4D004BB293 /* KitchenKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitchenKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837D3DA01B73DB4D004BB293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		837D3DA11B73DB4D004BB293 /* KitchenKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenKitTests.swift; sourceTree = "<group>"; };
+		C68444859C92A9BB9EF0F3B4 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				837D3DA51B73DB4D004BB293 /* KitchenKit.framework in Frameworks */,
+				15D04F6EEFA250312628B2E3 /* BuddyBuildSDK.framework in Frameworks */,
+				2E230436F523913664C68B74 /* AssetsLibrary.framework in Frameworks */,
+				FD0AEE7B868612BC9D01D151 /* CoreText.framework in Frameworks */,
+				F156502C23FB6C1A0D59B008 /* CoreTelephony.framework in Frameworks */,
+				3934CE3AC478E20FBDC682E0 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +325,7 @@
 				837D3D9E1B73DB4D004BB293 /* KitchenKitTests */,
 				830992671B715343007FCDAB /* Frameworks */,
 				830991D11B7140C5007FCDAB /* Products */,
+				43FEA01A0DBA18EA98CC7990 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -484,6 +501,11 @@
 				830992681B715343007FCDAB /* PhotosUI.framework */,
 				8309926A1B715343007FCDAB /* Photos.framework */,
 				830992901B71535B007FCDAB /* NotificationCenter.framework */,
+				C68444859C92A9BB9EF0F3B4 /* BuddyBuildSDK.framework */,
+				4CB14D0E3745BFB5651C9186 /* AssetsLibrary.framework */,
+				3F3623EDC576BAC3624A854B /* CoreText.framework */,
+				4329E60E923D3B967F43367B /* CoreTelephony.framework */,
+				752EF1DCE3D8972E00D3FB40 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1211,10 +1233,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KitchenSink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "96eeb358-4d45-4e9e-9553-e5313e76180b";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -1222,10 +1249,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KitchenSink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "96eeb358-4d45-4e9e-9553-e5313e76180b";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
